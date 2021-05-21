@@ -45,7 +45,7 @@ void loop()
     }
     else
     {
-        GoThroughAllLedsOneAtATime();
+        OneByOneLED();
     }
 }
 
@@ -331,29 +331,29 @@ void SpiralInAndOut()
   }
 }
 //go through all leds one at a time
-void GoThroughAllLedsOneAtATime()
+void OneByOneLED()
 {
   int x = 15;
-  for(int y = 0; y<5; y++)
+  for(int y=0;y<5;y++)
   {
     //0-3
-    for(int count = 4; count != 0; count--)
+    for(int count=3;count>= 0;count--)
     {
-      digitalWrite(layer[count-1], LOW);
-      for(int i = 0; i<4; i++)
+      digitalWrite(layer[count], LOW);
+      for(int i=0; i<4; i++)
       {
         digitalWrite(column[i], HIGH);
         delay(x);
         digitalWrite(column[i], LOW);
         delay(x);
       }
-    digitalWrite(layer[count-1], HIGH);
+    digitalWrite(layer[count], HIGH);
     }
     //4-7
-    for(int count = 0; count < 4; count++)
+    for(int count=0;count<4;count++)
     {
       digitalWrite(layer[count], LOW);
-      for(int i = 4; i<8; i++)
+      for(int i=4;i<8;i++)
       {
         digitalWrite(column[i], HIGH);
         delay(x);
@@ -363,23 +363,23 @@ void GoThroughAllLedsOneAtATime()
     digitalWrite(layer[count], HIGH);
     }
     //8-11
-    for(int count = 4; count != 0; count--)
+    for(int count=3;count>= 0;count--)
     {
-      digitalWrite(layer[count-1], LOW);
-      for(int i = 8; i<12; i++)
+      digitalWrite(layer[count], LOW);
+      for(int i=8;i<12;i++)
       {
         digitalWrite(column[i], HIGH);
         delay(x);
         digitalWrite(column[i], LOW);
         delay(x);
       }
-    digitalWrite(layer[count-1], HIGH);
+    digitalWrite(layer[count], HIGH);
     }
     //12-15
-    for(int count = 0; count < 4; count++)
+    for(int count=0;count<4;count++)
     {
       digitalWrite(layer[count], LOW);
-      for(int i = 12; i<16; i++)
+      for(int i=12;i<16; i++)
       {
         digitalWrite(column[i], HIGH);
         delay(x);
