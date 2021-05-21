@@ -43,10 +43,12 @@ governing cool patterns.
 ## Road Map:
 
  ● Collection of data sets
-          ●Due to the lack of physical sound sensors, we collected raw data using the Arduino Science Journal app. 
-           This involved recording 25 different songs and measuring their pitch and intensity.
+ ```
+   Due to the lack of physical sound sensors, we collected raw data using the Arduino Science Journal app. 
+   This involved recording 25 different songs and measuring their pitch and intensity.
 
-            https://drive.google.com/drive/folders/1DnzAyCfFRnC1uXlLX4rG4Io_o00BDKhD?usp=sharing
+   https://drive.google.com/drive/folders/1DnzAyCfFRnC1uXlLX4rG4Io_o00BDKhD?usp=sharing
+   ```
 
  ● Circuit Simulation
 
