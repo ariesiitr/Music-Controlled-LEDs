@@ -20,10 +20,10 @@ We present to you our project-"MUSIC CONTROLLED LEDs".
 
 ## Objective:
 
-We planned to make a 3-Dimensional 4x4x4 Music ControlledLED
-Cube. Our objective was to programme the circuit forvarious
+We planned to make a 3-Dimensional 4x4x4 Music Controlled LED
+Cube. Our objective was to programme the circuit for various
 intensity values. The circuit would detect these values from a
-sound/music source through a sensor and light dierentLEDs
+sound/music source through a sensor and light different LEDs
 governing cool patterns.
 
 
@@ -42,11 +42,11 @@ governing cool patterns.
 
 ## Road Map:
 
- ● Collection of data sets:
+ ● Collection of data sets
 
- ● Circuit Simulation:
+ ● Circuit Simulation
 
- ● Working on the Code:
+ ● Working on the Code
 
 For more detailed specifics, check out our report.
 The video of our working model is also included in the repository.
