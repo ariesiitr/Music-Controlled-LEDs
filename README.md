@@ -45,14 +45,22 @@ governing cool patterns.
  ● Collection of data sets
  ```
    Due to the lack of physical sound sensors, we collected raw data using the Arduino Science Journal app. 
-   This involved recording 25 different songs and measuring their pitch and intensity.
+   This involved recording 25 different songs and measuring their pitch and intensity. Then, we analysed this data to prepare our intensity ranges.
+   Given below is the link to our data sets-
+ ```
 
    https://drive.google.com/drive/folders/1DnzAyCfFRnC1uXlLX4rG4Io_o00BDKhD?usp=sharing
-   ```
+   
 
  ● Circuit Simulation
+  ```
+    For designing and simulating the circuit, we used the Tinkercad Circuit Simulator.
+  ```
 
  ● Working on the Code
+ ```
+    The code will be written in Arduino IDE and then uploaded to the mega board.
+ ```
 
 For more detailed specifics, check out our report.
 The video of our working model is also included in the repository.
