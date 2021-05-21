@@ -45,8 +45,8 @@ governing cool patterns.
  ● Collection of data sets
  ```
    Due to the lack of physical sound sensors, we collected raw data using the Arduino Science Journal app. 
-   This involved recording 25 different songs and measuring their pitch and intensity. Then, we analysed this data 
-   to prepare our intensity ranges.
+   This involved recording 25 different songs and measuring their pitch and intensity. 
+   Then, we analysed this data to prepare our intensity ranges.
    Given below is the link to our data sets-
  ```
 
