@@ -60,7 +60,7 @@ governing cool patterns.
 
  ● Working on the Code
  ```
-    The code will be written in Arduino IDE and then uploaded to the mega board.
+    The code has been written in Arduino IDE and then uploaded to the mega board.
  ```
 
 For more detailed specifics, check out our report.
