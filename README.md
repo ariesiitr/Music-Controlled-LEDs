@@ -48,6 +48,7 @@ governing cool patterns.
 
  ● Working on the Code:
 
-To get a more detailed analysis on how we completed this project, so check out our report and the working model.
+For more detailed specifics, check out our report.
+The video of our working model is also included in the repository.
 
 
